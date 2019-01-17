@@ -6,8 +6,10 @@ spring:
         git:
           uri: https://github.com/umesh-kushwaha/SpringBootMicroServices.git
           searchPaths: ConfigData
+          username: umesh-kushwaha
+          password: umesh220388
         # "native" is used when the native profile is active, for local tests with a classpath repo:
-        native:
-          searchLocations: classpath:offline-repository/
+        #native:
+         # searchLocations: classpath:offline-repository/
 server:
   port: 8001
